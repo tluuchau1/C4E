@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+    <style>
+       
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #87CEFA;
+        }
+        .main {
+            margin-left: 44px;
+        }
+        input {
+            padding: 13px 14px;
+            width: 96%;
+        }
+        .career{
+            padding: 25px 0px;
+        }
+       
+        .radio-button {
+            display: inline-flex;
+            
+        }
+        p{
+            margin-bottom: 2px;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Student Registeration Form</h1>
+
+    <hr width="93%" style="margin: auto;">
+    <div class="main">
+        <form>
+            <!-- Info -->
+            <p>Firstname:</p>
+            <input type="text" placeholder="Firstname">
+            <p>Middlename:</p>
+            <input type="text" placeholder="Middlename">
+            <p>Lastname:</p>
+            <input type="text" placeholder="Lastname">
+            <!-- X-career -->
+            <div class="career">
+            <label>Course:</label>
+            <select>
+                <option value="Course">Course</option>
+                <option value="X-career">X-Career</option>
+                <option value="Mindx">Mindx</option>
+            </select>
+            </div>
+            <!-- Gender -->
+            <div class="radio-button">
+           
+            <label for="Gender">Gender:</label>
+            
+                <input type="radio" name="gender" value="Male" checked>
+                <label for="Male">Male</label>
+            
+            
+                <input type="radio" name="gender" value="Female">
+                <label for="Female">Female</label>
+            
+            
+                <input type="radio" name="gender" value="Other">
+                <label for="Other">Other</label>
+             </div>
+             <!-- Phone -->
+             <div class="phone1">
+                <p>Phone:</p>
+                <input type="tel" value="+91">
+                <br><br>
+                <input type="tel" placeholder="Phone no.">
+             </div>
+             <!-- address -->
+             <div class="add">
+                <p>Current Address :</p>
+                <textarea cols="30" rows="10" style="width: 96%; height: 120px; padding:14px;" placeholder="Current Address :"></textarea>
+             </div>
+             <!-- Email -->
+             <div class="ema">
+             <p><b>Email:</b></p>
+                <input type="email" placeholder="Enter Email">
+            </div>
+            <!-- password -->
+        <div class="pass">
+            <p><b>password</b></p>
+            <input type="password" placeholder="Enter Password">
+        </div>
+        <!-- Retire password -->
+        <div class="retype-pass">
+            <p><b>Re-type Password</b></p>
+            <input type="password" placeholder="Retype Password">
+        </div>
+        <!-- submit -->
+        <br><br>
+        <input type="submit"  style="color:#fff; background-color: Green; font-size: 14px;" value="Register">
+        </form>
+    </div>
+</body>
+</html>
