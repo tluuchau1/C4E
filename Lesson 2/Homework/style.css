@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    }
+.body-pic {
+    width: 300px;
+    height: 280px;
+    background: #2F4F4F;
+    
+    
+}
+.pic {
+    text-align: center;
+    padding-top: 34px;
+}
+.pic img{
+    width: 130px;
+    height: 130px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    
+}
+.text-pic{
+    text-align: center;
+    padding-top: 18px;
+    color: #fff;
+}
+.text-pic1{
+    font-size: 24px;
+    font-weight: 300;
+}
+.text-pic2{
+    font-size: 16px;
+    font-weight: 300;
+}
+#info{
+    width: 300px;
+    height: auto;
+    background: #778899;
+    
+}
+.ti-user {
+    
+    color: #fff;
+    
+    font-size: 25px;
+
+}
+.main-about{
+    padding-top: 50px;
+    margin-left: 25px;
+
+}
+.about1 {
+    color: #fff;
+}
+.text-about{
+    padding-top: 20px;
+}
+.ti-user {
+    background: #000;
+    border-radius: 50%;
+}
+.ti-home {
+    background: #000;
+    border-radius: 50%;
+}
+.ti-location-pin {
+    background: #fff;
+    border-radius: 50%;
+}
+.ti-world {
+    background: #fff;
+    border-radius: 50%;
+}
+.ti-mobile {
+    background: #fff;
+    border-radius: 50%;
+}
+.ti-crown{
+    background: #000;
+    border-radius: 50%;
+}
+.ti-soundcloud {
+    background: #fff;
+    border-radius: 50%;
+     
+}
+.skill {
+    padding-top: 20px;
+}
+.level {
+    width: var(--percent);
+    height: 10px;
+    
+}
