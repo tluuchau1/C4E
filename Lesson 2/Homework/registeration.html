@@ -9,14 +9,20 @@
        
         body {
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #87CEFA;
+            display: flex;
+            justify-content: center;
+            
         }
         .main {
-            margin-left: 44px;
+            
+            background: #87CEFA;
+            flex-direction: column;
+            width: 500px;
+            align-items: center;
         }
         input {
             padding: 13px 14px;
-            width: 96%;
+            width: 91%;
         }
         .career{
             padding: 25px 0px;
@@ -29,14 +35,18 @@
         p{
             margin-bottom: 2px;
         }
+        .main-info{
+            margin-left: 17px;
+        }
        
     </style>
 </head>
 <body>
+    <div class="main">
     <h1 style="text-align: center;">Student Registeration Form</h1>
 
     <hr width="93%" style="margin: auto;">
-    <div class="main">
+        <div class="main-info">
         <form>
             <!-- Info -->
             <p>Firstname:</p>
@@ -80,7 +90,7 @@
              <!-- address -->
              <div class="add">
                 <p>Current Address :</p>
-                <textarea cols="30" rows="10" style="width: 96%; height: 120px; padding:14px;" placeholder="Current Address :"></textarea>
+                <textarea cols="30" rows="10" style="width: 92%; height: 120px; padding:14px;" placeholder="Current Address :"></textarea>
              </div>
              <!-- Email -->
              <div class="ema">
@@ -101,6 +111,7 @@
         <br><br>
         <input type="submit"  style="color:#fff; background-color: Green; font-size: 14px;" value="Register">
         </form>
+        </div>
     </div>
 </body>
 </html>
