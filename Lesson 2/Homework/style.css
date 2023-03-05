@@ -1,14 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
     }
+#main {
+    background-color: #F5F5DC;
+    display: flex;
+}
 .body-pic {
     width: 300px;
     height: 280px;
     background: #2F4F4F;
-    
-    
 }
 .pic {
     text-align: center;
@@ -36,62 +39,115 @@
 }
 #info{
     width: 300px;
-    height: auto;
+    height: 1026px;
     background: #778899;
     
 }
 .ti-user {
-    
     color: #fff;
-    
     font-size: 25px;
-
 }
 .main-about{
     padding-top: 50px;
     margin-left: 25px;
-
+    
 }
 .about1 {
     color: #fff;
+    margin-bottom: 15px;
 }
 .text-about{
     padding-top: 20px;
 }
-.ti-user {
+.ti-crown,.ti-home,.ti-user{
     background: #000;
     border-radius: 50%;
+    font-size: large;
 }
-.ti-home {
-    background: #000;
-    border-radius: 50%;
-}
-.ti-location-pin {
+.ti-github,.ti-stack-overflow,.ti-css3,.ti-html5,.ti-soundcloud,.ti-mobile,.ti-email,.ti-location-pin{
     background: #fff;
     border-radius: 50%;
-}
-.ti-world {
-    background: #fff;
-    border-radius: 50%;
-}
-.ti-mobile {
-    background: #fff;
-    border-radius: 50%;
-}
-.ti-crown{
-    background: #000;
-    border-radius: 50%;
-}
-.ti-soundcloud {
-    background: #fff;
-    border-radius: 50%;
-     
+    
 }
 .skill {
-    padding-top: 20px;
+    margin-top: -6px;
 }
-.level {
-    width: var(--percent);
-    height: 10px;
+.first-line {
+    width: 220px;
+    height: 9px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: 18px;
+    position: relative;
+    margin-top: -14px
     
+}
+.two-line { 
+    width: var(--precent);
+    height: 9px;
+    background: #273238;
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+}
+#main-center{
+    margin-left: 14%;
+}
+.set-center{
+    margin-top: 25px;
+    
+    
+}
+.set-margin {
+    margin-left: 46px;
+    margin-top: 20px;   
+}
+.text-heading {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;  
+}
+.ti-bag,.ti-rocket,.ti-world {
+    background-color: #273238;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.ti-timer,.ti-google,.ti-yahoo{
+    color: #96A3A7;
+    font-size: 12px;
+}
+.heading-skill {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.text-content{
+    color: #878789;
+    padding-top: 20px;
+    width: 624px;
+}
+.all-about-country{
+    display: flex;
+}
+.main-country{
+    
+}
+.country{
+    margin-left: 43px;
+    margin-top: 25px;
+}
+.country img{
+    width: 150px;
+    height: 100px;
+
+}
+.text-country {
+    margin-left: 95px;
+    margin-top: 15px;
+}
+.icon-country {
+    margin-left: 81px;
 }
