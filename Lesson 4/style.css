@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.main-left {
+    margin: 20px 10px;
+    width: 500px;
+    height: 400px;
+    background-color: #DAE8FC;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid black;
+    
+}
+.heading {
+    font-size: 25px;
+    background-color: #FFE6CC;
+    margin: 15px 20px;
+    padding-top: 10px;
+    text-align:center;
+    padding: 7px 10px;
+    border: 1px solid #D9C27F;
+}
+.content {
+    width: 440px;
+    height: 110px;
+    background-color: #F9CECD;
+    margin: 0 20px;
+    padding: 5px 10px;
+    border: 1px solid #CF8787;
+}
+.btn{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+input {
+    background-color: #1FA0E3;
+    color: #fff;
+    padding: 5px 14px;
+    border-radius: 5px;
+
+}
+.main-right {
+    background-color: #B3B3B3;
+    margin: 35px;
+    width: 550px;
+    height: 360px;
+    position: relative;
+
+}
+#box{
+    
+}
+
+.box1{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    width: 150px;
+    height: 80px;
+    background-color: #5FA917;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #347A08;
+}
+.box2 {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    background-color: #008A00;
+    border: 1px solid #0D870C;
+}
+.box3{
+    position: absolute;
+    top: 60px;
+    left: 370px;
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    background-color: #1FA0E3;
+    border: 1px solid #2F99CF;
+}
+.box4{
+    position: absolute;
+    top: 190px;
+    left: 370px;
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    background-color: #A30124;
+    border: 1px solid #966565;
+}
+.box7{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #000;
+    background-color: #FFE6CC;
+    border: 1px solid #DFBE7D;
+}
+.box5{
+    position: absolute;
+    top: 260px;
+    left: 200px;
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #fff ;
+    background-color: #D80174;
+    border: 1px solid #AC5877;
+}
+.box6{
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    width: 150px;
+    height: 80px;
+    background-color: #0050EE;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #1435C2;
+}
