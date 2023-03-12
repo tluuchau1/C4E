@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main {
+    height: 1000px;
+    background: palegreen;
+    /* background-image: url(https://www.strategeast.org/wp-content/uploads/2020/01/Coca-cola.jpg);
+    background-size: cover; */
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff; 
+    height: 48px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    
+}
+.logo {
+    margin: 0px 50px;
+}
+.logo img {
+    width: 200px;
+    background-size: contain;
+    height: 48px;
+}
+.nav li{
+    display: inline-block;
+    position: relative;
+}
+
+.nav  li > a {
+    text-decoration: none;
+    color: #120F0D;
+    line-height: 48px;
+    padding: 0px 10px;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+
+/* Effect */
+.nav li a::after{
+    content: "";
+    height: 5px;
+    width: 0;
+    background: #FF560E;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+}
+.nav li a:hover::after {
+    width: 50%;
+    transform: translateX(100%);
+}
+/*  */
+.nav li:hover > a{
+    background-color: #F40000;
+    color: #fff;
+    font-weight: 500;
+    border-bottom: 2px solid #ff704d;
+    border-left: 2px solid #ff704d;
+    border-radius: 5px;
+}
+.subnav li:hover .drop-down{
+    display: block;
+    background-color: #fff;
+    
+}
+.subnav .drop-down{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+.drop-down .sub-drop-down {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+.drop-down li:hover .sub-drop-down{
+    display: block;
+    background-color: #fff;
+}
+/* .nav li:hover a {
+     color: #120F0D;
+    background-color: #fff; 
+}*/
+    
+
+.nav li:hover .subnav {
+    display: block;
+    color: #120F0D;
+    background-color: #fff;
+}
+.nav .subnav {
+    position: absolute;
+    display: none;
+    
+}
+.subnav li a {
+    font-size: 12px;
+    width: 200px;  
+     
+}
+
+.icon {
+    margin: auto;
+}
+.fa-user,.fa-magnifying-glass,.fa-globe {
+    font-size: 18px; 
+    margin-left: 12px;
+}
+
+#footer {
+    background: #4A4A4A;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-logo img {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+ul.footer-nav {
+    display: flex;
+    margin-top: 50px;
+    padding: 0px 10px;
+    margin-left: 10px;
+}
+ul.footer-nav li {
+    list-style-type: none;
+    
+    
+}
+ul.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+    
+}
+
+.footer-subnav{
+    display: flex;
+    margin-left: 25px;
+    color: #fff;
+    
+    
+}
+.footer-about {
+    margin-left: 150px;
+}
+.footer-subnav2{
+    display: flex; 
+    
+}
+.footer-subnav2 li {
+    list-style-type: none;
+    padding: 10px;
+    
+}
+.footer-subnav2 a{
+    color: #fff;
+    border-right: 1px solid #fff;
+    padding: 5px;
+    
+}
+.footer-icon{
+    margin-left: 50px;
+    padding: 0px 5px;
+}
+.fa-facebook,.fa-twitter,.fa-youtube,.fa-instagram{
+    color: #B7B7B7;
+    margin-left: 30px;
+    font-size: 30px;
+    
+}
+.fa-instagram:hover,.fa-facebook:hover,.fa-twitter:hover,.fa-youtube:hover {
+    color: #fff;
+}
