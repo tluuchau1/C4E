@@ -9,12 +9,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="main">
+    
+    <div id="card row-container">
+        <!-- Header -->
         <div id="header">
             <div class="logo"><img src="https://www.coca-colacompany.com/content/dam/journey/us/en/logos/TCCC_PrimaryWordmark_Horizontal_Black.svg" alt="logo"></div>
-            
-            <div id="menu"> 
-                <ul class="nav">
+            <!-- menu -->
+            <div id="menu">  
+                   <!-- menu pc -->
+            <ul class="nav">
                     <li><a href="#">Our Company</a>
                     <ul class="subnav">
                         <li><a href="#">PURPOSE & VISION</a>
@@ -183,6 +186,7 @@
                             </li>
                             <li><a href="#">WORK WITH US</a></li>
                         </ul>
+                    </li>
                         <li><a href="#">News</a>
                             <ul class="subnav">
                                 <li><a href="#">WHAT OTHERS ARE READING</a>
@@ -198,14 +202,263 @@
                             </ul>
                         </li>
                 </ul>
+                <!-- menu mobile -->
+                <input type="checkbox"  name="" hidden class="mobile-open" id="mobile-open-bars">
+                <label for="mobile-open-bars" class="nav_overlay"></label>
+                <div class="mobile">
+                <ul class="mobile_nav">
+                    <label for="mobile-open-bars" class="nav_close-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <li><a href="#">Our Company</a>
+                    <!-- <ul class="mobile_subnav">
+                        <li><a href="#">PURPOSE & VISION</a>
+                            <ul class="mobile_drop-down">
+                                <li><a href="#">Who We Are</a></li>
+                            </ul> -->
+                        </li>
+                        <!-- <li><a href="#">COCA-COLA HISTORY</a>
+                        <ul class="mobile_drop-down">
+                            <li><a href="#">Our Origins</a></li>
+                            <li><a href="#">Our First Bottle</a></li>
+                            <li><a href="#">Sustainability History</a></li>
+                        </ul>
+                        </li> -->
+                        <!-- <li><a href="#">COCA-COLA SYSTEM</a>
+                        <ul class="mobile_drop-down">
+                            <li><a href="#">Bottling Partners</a>
+                            <ul class="mobile_sub-drop-down">
+                                <li><a href="#">Africa</a></li>
+                                <li><a href="#">ASEAN & South Pacific</a></li>
+                                <li><a href="#">Eurasia & Middle East</a></li>
+                                <li><a href="#">Europe</a></li>
+                                <li><a href="#">Greater China & Mongolia</a></li>
+                                <li><a href="#">India & Southwest Asia</a></li>
+                                <li><a href="#">Japan & South Korea</a></li>
+                                <li><a href="#">Latin America</a></li>
+                                <li><a href="#">North America</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#">Advertising History</a></li>
+                        </ul>
+                        </li> -->
+                        <!-- <li><a href="#">COCA-COLA LEADERSHIP</a></li>
+                    </ul>
+                    </li> -->
+                    <li><a href="#">Our Brands</a>
+                        <!-- <ul class="mobile_subnav">
+                            <li><a href="#">SPARKLING</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Coca-Cola</a></li>
+                                    <li><a href="#">Diet Coke</a></li>
+                                    <li><a href="#">Fanta</a></li>
+                                    <li><a href="#">Sprite</a></li>
+                                </ul> -->
+                            </li>
+                            <!-- <li><a href="#">HYDRATION</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">AHA</a></li>
+                                    <li><a href="#">BODYARMOR</a></li>
+                                    <li><a href="#">Dasani</a></li>
+                                    <li><a href="#">Powerade</a></li>
+                                    <li><a href="#">smartwater</a></li>
+                                    <li><a href="#">Topo Chico</a></li>
+                                </ul>
+                            </li> -->
+                            <!-- <li><a href="#">COFFEE & TEA</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Costa Coffee</a></li>
+                                    <li><a href="#">FuzeTea</a></li>
+                                    <li><a href="#">Gold Peak Tea</a></li>
+                                    <li><a href="#">Peace Tea</a></li>
+                                </ul>
+                            </li> -->
+                            <!-- <li><a href="#">JUICES & DAIRY</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Fairlife</a></li>
+                                    <li><a href="#">Innocent</a></li>
+                                    <li><a href="#">Minute Maid</a></li>
+                                    <li><a href="#">Simply</a></li>
+                                </ul>
+                            </li> -->
+                            <!-- <li><a href="#">ALCOHOL</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Fresca Mixed</a></li>
+                                    <li><a href="#">Jack Daniel's & Coca-Cola</a></li>
+                                    <li><a href="#">Simply Spiked</a></li>
+                                    <li><a href="#">Topo Chico Hard Seltzer</a></li>
+                                </ul>
+                            </li> -->
+                        <!-- </ul> -->
+                    </li>
+                    <li><a href="#">Sustainability</a>
+                        <!-- <ul class="mobile_subnav">
+                            <li><a href="#">WATER STEWARDSHIP</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Water Security Strategy</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">SUSTAINABLE PACKAGING</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Collection Strategy</a></li>
+                                    <li><a href="#">Packaging Design</a></li>
+                                    <li><a href="#">Partnerships</a></li>
+                                    <li><a href="#">Circular Economy</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">SUSTAINABLE AGRICULTURE</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Principles for Sustainable (PSA)</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">IN OUR PRODUCTS</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Sugar Reduction</a></li>
+                                </ul>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li><a href="#">Social Impact</a>
+                        <!-- <ul class="mobile_subnav">
+                            <li><a href="#">DIVERSITY & INCLUSION</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Leadership Councils</a></li>
+                                    <li><a href="#">Employee Groups</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">HUMAN RIGHTS</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">2022 Overview</a></li>
+                                    <li><a href="#">Our Principles</a></li>
+                                    <li><a href="#">Our Policies</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">COMMUNITIES</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Women Empowerment</a></li>
+                                    <li><a href="#">Project Last Mile</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">COCA-COLA FOUNDATION</a></li>
+                            <li><a href="#">PARTNERSHIPS</a></li>
+                            <li><a href="#">PEOPLE VALUES</a></li>
+                            <li><a href="#">SPORTS & ENTERTAINMENT</a></li>
+                            <li><a href="#">ESG RESOURCE CENTER</a></li>
+                        </ul> -->
+                    </li>
+                    <li><a href="#">Careers</a>
+                        <!-- <ul class="mobile_subnav">
+                            <li><a href="#">LIFE AT COCA-COLA</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Culture</a></li>
+                                    <li><a href="#">Benefits</a></li>
+                                    <li><a href="#">Career Development</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">CAREER AREAS</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Early Career</a></li>
+                                    <li><a href="#">Experienced Professionals</a></li>
+                                    <li><a href="#">Military</a></li>
+                                    <li><a href="#">Accessible Workplace</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">HIRING PROCESS</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Application Process</a></li>
+                                    <li><a href="#">Interview</a></li>
+                                    <li><a href="#">Offers</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">JOB SEARCH</a>
+                                <ul class="mobile_drop-down">
+                                    <li><a href="#">Coca-Cola Company Jobs</a></li>
+                                    <li><a href="#">Coca-Cola System Jobs</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">WORK WITH US</a></li>
+                        </ul> -->
+                    </li>
+                        <li><a href="#">News</a>
+                            <!-- <ul class="mobile_subnav">
+                                <li><a href="#">WHAT OTHERS ARE READING</a>
+                                    <ul class="mobile_drop-down">
+                                        <li><a href="#" style="width: 300px;">Bottles Made From 100% Plant Plastic</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">LATEST ARTICLES</a>
+                                    <ul class="mobile_drop-down">
+                                        <li><a href="#" style="width: 400px;">Sprite, Fresca, Seagrams, & Mark Ronson Madlib Music Connection</a></li>
+                                    </ul>
+                                </li>
+                            </ul> -->
+                        </li>
+                </ul>
+                
+                </div>
             </div>
             <div class="icon"><i class="fa-solid fa-magnifying-glass"></i> <i class="fa-solid fa-user"></i> <i class="fa-solid fa-globe"></i></div>
-            <div class="icon-btn"><i class="fa-solid fa-bars"></i></div>
+        
+            
+            <label for="mobile-open-bars" class="icon-btn"><i class="fa-solid fa-bars"></i></label>
         </div>
         
-    </div>
+        
+        <!-- body -->
+        <div class="container">
+            <div class="container-header">
+                <h2>The Future of WYSIWYG</h2>
+            </div>
+            <div class="container-about">
+                <div class="container-img"><img src="https://www.elegantthemes.com/images/icons/big/dad.svg" alt="dad"></div>
+                <h3 class="container-about-text">Drag & Drop Building</h3>
+                <p class="container-about-subtext">Add, delete and move elements around on the front end of your website. No coding and no confusing back end options.</p>
+            </div>
+            <div class="container-about">
+                <div class="container-img"><img src="https://www.elegantthemes.com/images/icons/big/design.svg" alt="design"></div>
+                <h3 class="container-about-text">True Visual Editing</h3>
+                <p class="container-about-subtext">Design your page in real time and see the results instantly. Create and customize your pages using intuitive visual controls.</p>
+            </div>
+            <div class="container-about">
+                <div class="container-img"><img src="https://www.elegantthemes.com/images/icons/big/code.svg" alt="code"></div>
+                <h3 class="container-about-text">Custom CSS Control</h3>
+                <p class="container-about-subtext">Developers can easily combine Divi's visual design controls with their own custom CSS. Divi's interface is simple yet not limiting.</p>
+            </div>
+            <div class="container-about">
+                <div class="container-img"><img src="https://www.elegantthemes.com/images/icons/big/responsive.svg" alt="responsive"></div>
+                <h3 class="container-about-text">Responsive Editing</h3>
+                <p class="container-about-subtext">Building beautiful responsive websites is easy. Divi is responsive by nature and also gives you full control over how your website looks on mobile devices.</p>
+            </div>
+            <div class="container-about">
+                <div class="container-img"><img src="https://www.elegantthemes.com/images/icons/big/options.svg" alt="option"></div>
+                <h3 class="container-about-text">Design Options Galore</h3>
+                <p class="container-about-subtext">Enjoy dozens of unique page elements and thousands of design options. Divi gives you full design control over your website.</p>
+            </div>
+            <div class="container-about">
+                <div class="container-img"><img src="https://www.elegantthemes.com/images/icons/big/editor.svg" alt="editor"></div>
+                <h3 class="container-about-text">Inline Text Editing</h3>
+                <p class="container-about-subtext">Just click and start typing! Editing your page has never been this easy. Draft pages on the front end and see the results instantly as you type.</p>
+            </div>
+            <div class="container-about">
+                <div class="container-img"><img src="https://www.elegantthemes.com/images/icons/big/library.svg" alt="library"></div>
+                <h3 class="container-about-text">Save & Manage Your Designs</h3>
+                <p class="container-about-subtext">Save and manage unlimited custom designs. Easily re-use them to jump-start new pages. Create advanced design systems and streamline your work flow.</p>
+            </div>
+            <div class="container-about">
+                <div class="container-img"><img src="https://www.elegantthemes.com/images/icons/big/global.svg" alt="global"></div>
+                <h3 class="container-about-text">Global Elements & Styles</h3>
+                <p class="container-about-subtext">Manage your entire website's design using global elements and website-wide design settings. Divi isn't just a page builder, it's a website design system.</p>
+            </div>
+            <div class="container-about">
+                <div class="container-img"><img src="https://www.elegantthemes.com/images/icons/big/history.svg" alt="history"></div>
+                <h3 class="container-about-text">Undo, Redo, & Revisions</h3>
+                <p class="container-about-subtext">Divi works like a modern software application. Easily undo, redo and travel through your entire editing history. If you make a mistake, Divi has your back.</p>
+            </div>  
+        </div>
+    
     <!-- Footer -->
     <footer id="footer">
+        <div class="footter-text">
         <div class="footer-logo"><img src="https://www.coca-colacompany.com/content/dam/content-fragments/journey/us/en/company%20footer%20.svg" alt="logo"></div>
         <ul class="footer-nav">
             <li><a href="#">Contact Us</a></li>
@@ -216,8 +469,10 @@
             <li><a href="#">History</a></li>
             <li><a href="#">International</a></li>
         </ul>
-    <div class="footer-subnav">2023 The Coca-Cola Company. All Rights Reserved.
+    </div>
     <div class="footer-about">
+        <div class="footer-test2">
+        <div class="footer-subnav">2023 The Coca-Cola Company. All Rights Reserved.</div>
         
         <ul class="footer-subnav2">
             <li><a href="#">Privacy</a></li>
@@ -225,10 +480,12 @@
             <li><a href="#">Do Not Sell My Personal Information</a></li>
         </ul>
     </div>
-    <div class="footer-icon">
-        <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-youtube"></i> <i class="fa-brands fa-instagram"></i>  
+        <div class="footer-icon">
+            <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-youtube"></i> <i class="fa-brands fa-instagram"></i>  
+        </div>
     </div>
-    </div>
+    
     </footer>
+</div>
 </body>
 </html>
