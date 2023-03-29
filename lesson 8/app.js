@@ -262,7 +262,7 @@ console.log(combinedStrings);
 - Tạo mảng mới gồm các số có giá trị là các số chia hết cho 2 lần lượt trong d2 và d1.
 - Giả sử d1 , d2 là các dãy số xếp theo thứ tự tăng dần. Hãy tạo ra 1 dãy số theo thứ tự tăng dần bao gồm các số của d1 và d2 (Sử dụng core của thuật toán Merge Soft).
 */
-
+/*
 let d1 = [1, 2, 3, 11, 5, 6];
 let d2 = ['berroca', 'vitamin B12', 'kẽm', 'Sắt'];
 //Kiểm tra xem tất cả các giá trị số d1 có nằm trong d2 không.
@@ -287,8 +287,9 @@ console.log(result);
 //Tạo mảng mới gồm các số có giá trị là các số chia hết cho 2 lần lượt trong d2 và d1.
 
 let d3 = [];
-
+*/
 //Lặp qua các phần tử trong d1
+/*
 for (let i = 0; i < d1.length; i++) {
   
   if (d1[i] % 2 === 0) {
@@ -306,7 +307,7 @@ for (let i = 0; i < d2.length; i++) {
 }
 
 console.log(d3); 
-
+*/
 //Giả sử d1 , d2 là các dãy số xếp theo thứ tự tăng dần. Hãy tạo ra 1 dãy số theo thứ tự tăng dần bao gồm các số của d1 và d2 (Sử dụng core của thuật toán Merge Soft).
 /*
 function mergeSortedList(d1, d2) {
