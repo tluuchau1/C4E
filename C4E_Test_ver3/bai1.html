@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+           width: 100%;
+           display: flex;
+           justify-content: center;
+           
+        }
+        .content {
+            margin: 0 24px;
+            width: 980px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 4px 16px;
+            border: 2px solid #000;
+        }
+        label {
+            text-align: center;
+            margin-bottom: 4px;
+        }
+        input {
+			padding: 8px 16px;
+			margin-bottom: 8px;
+			border-radius: 4px;
+			width: 100%;
+		}
+
+		button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 24px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+    <h1>Tổng các số nguyên tố (a - b) </h1>
+
+
+    <label for="a"> 
+        Nhập Số a:
+    </label>
+    <input type="number" id="a" name="a" required>
+
+
+    <label for="b"> 
+        Nhập Số b:
+    </label>
+    <input type="number" id="b" name="b" required>
+
+    <button type="submit" onclick="tinhTong()">Tính Tổng</button>
+
+    <p id="ketQua"></p>
+
+</div>
+</div>
+<script src="bai1.js"></script>
+</body>
+</html>
